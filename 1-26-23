@@ -22,3 +22,23 @@ public static boolean isOdd(int n){
 public static boolean isOdd(int n){
   return (n%2 != 0);
 }
+
+
+
+//determine if n is even
+public static boolean isEven(int n){
+  return (n%2==0);
+}
+
+
+//determine if num is divisible by factor
+ public static boolean isDivisibleBy(int num, int factor){
+ 		return (num%factor == 0);
+ }
+ 
+ 
+ //determine in num is between and lo and hi
+ public static boolean isBetween(double num, double lo, double hi){
+ 		return (num < hi && num > lo);
+ }
+ 
