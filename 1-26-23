@@ -1,0 +1,24 @@
+//determine if n is odd
+public static boolean isOdd(int n){
+  if (n%2 == 1){
+    return true;
+  } return false;
+}
+
+public static boolean isOdd(int n){
+  if (n%2 == 0){
+    return false;
+  } return true;
+}
+
+public static boolean isOdd(int n){
+  return (n%2 == 1);
+}
+
+public static boolean isOdd(int n){
+  return (n%2 != 0);
+}
+
+public static boolean isOdd(int n){
+  return (n%2 != 0);
+}
