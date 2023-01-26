@@ -31,14 +31,23 @@ public static boolean isEven(int n){
 }
 
 
+
 //determine if num is divisible by factor
  public static boolean isDivisibleBy(int num, int factor){
  		return (num%factor == 0);
  }
  
  
+ 
  //determine in num is between and lo and hi
  public static boolean isBetween(double num, double lo, double hi){
  		return (num < hi && num > lo);
+ }
+ 
+ 
+ 
+ //write  for loop that prints the numbers 1 to 10
+ for (int i = 1;  i<=10; i++){
+    System.out.println(i);
  }
  
