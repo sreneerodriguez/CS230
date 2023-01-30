@@ -46,4 +46,9 @@ public class RandomExample{
   }
 }
   
-}
+
+
+double hahrenheit = 98.6;
+double celsius = (fahrenheit - 32) * 5/9;
+System.out.println(celsius);
+//prints out 37.0 **note that this is a double because at least one of the prerands is a double
