@@ -1,0 +1,7 @@
+//what is wrong with the code?
+count = 50? 
+while (count >= 0){
+  System.out.println(count);
+  count = count+1;
+}
+//this code is an infinite loop, thus it will have a run-time error
