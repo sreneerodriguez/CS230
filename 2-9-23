@@ -15,3 +15,12 @@ public static double computeAverage(int[] data){
   }
   return sum/data.length;
 }
+
+//computeMaximum
+public static int computeMaximum(int[] data){
+  int maxVal;
+  for(int i = 0; i < data.length - 1; i++){
+     maxVal = Math.max(data[i], data[i+1]);
+  }
+  return maxVal
+}
