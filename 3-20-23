@@ -1,0 +1,23 @@
+ArrayStacks
+
+int front = 0;
+int back = size - 1;
+
+public boolean isEmpty(){
+  if(size() == 0){
+    return true;
+  }
+  return false;
+}
+
+public int size(){
+  return counter;
+}
+
+public T first () throws EmptyCollectionException{
+   try{
+        
+   }catch(EmmpyCollectionException ex){
+      System.out.println("This array stack is empty.");
+   }
+}
